@@ -53,6 +53,6 @@ sheet = client.open("Moves Like Jagr Points Race").sheet1
 
 today = date.today()
 
-insertRow = [today.strftime("%d/%m/%Y"), teamDict['Team Baadshah'], teamDict['Puck You'], teamDict['Asgard  Titans '], teamDict['Edmonton Northern Lights'], teamDict['Stick It In Her 5 Hole'], teamDict['Team Patelipines']]
+insertRow = [today.strftime("%d/%m/%Y"), teamDict['Team A'], teamDict['Team B'], teamDict['Team C '], teamDict['Team D'], teamDict['Team E'], teamDict['Team F']]
 
 sheet.insert_row(insertRow, 2)
